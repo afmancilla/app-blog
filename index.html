@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>¡Página en Construcción!</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f0f8ff;
+      color: #333;
+      text-align: center;
+      padding: 50px;
+      margin: 0;
+    }
+
+    h1 {
+      color: #ff6347;
+      font-size: 3em;
+      animation: bounce 1s infinite alternate;
+    }
+
+    p {
+      font-size: 1.5em;
+      margin: 20px 0;
+    }
+
+    .construction-icon {
+      font-size: 80px;
+      color: #ff6347;
+      animation: shake 1s infinite;
+    }
+
+    .progress-bar {
+      width: 80%;
+      height: 20px;
+      background-color: #ddd;
+      margin: 20px auto;
+      border-radius: 10px;
+    }
+
+    .progress {
+      width: 50%;
+      height: 100%;
+      background-color: #ff6347;
+      border-radius: 10px;
+      animation: load 3s forwards;
+    }
+
+    @keyframes bounce {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-20px); }
+      100% { transform: translateY(0); }
+    }
+
+    @keyframes shake {
+      0% { transform: rotate(0deg); }
+      50% { transform: rotate(10deg); }
+      100% { transform: rotate(-10deg); }
+    }
+
+    @keyframes load {
+      0% { width: 0%; }
+      100% { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <h1>¡Estamos en Construcción!</h1>
+  <p>¡Pronto estará listo! Mientras tanto, puedes ver cómo avanzamos.</p>
+  
+  <div class="construction-icon">🔨</div>
+  
+  <div class="progress-bar">
+    <div class="progress"></div>
+  </div>
+
+  <p>Gracias por tu paciencia. ¡Volveremos pronto!</p>
+  <p><strong>Desarrollado por:</strong> Alex Mancilla</p>
+  <p><strong>Trabajando en ello...</strong></p>
+</body>
+</html>
